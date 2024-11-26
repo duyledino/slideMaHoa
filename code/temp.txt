@@ -1,0 +1,404 @@
+slide1
+<div class="slide slide1">
+        <div class="mainContent">
+            <div class="title">
+                <h2>Ứng dụng thuật toán HIGHT trong thiết bị IoT</h2>
+            </div>
+            <div class="earth">
+                <img src="../image/bgEarth.png" class="bgEarth">
+                <img src="../image/Earth3d.png" class="Earth3d">
+            </div>
+            <img src="../image/menu.png" class="menu">
+        </div>
+        <div class="rightSide">
+            <div class="pageNum">001</div>
+            <div class="subject">
+                <h2>Mã Hóa Ứng Dụng</h2>
+            </div>
+        </div>
+        <div class="downSide">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+slide 2
+<div class="slide2">
+      <div class="leftSide">
+        <div class="title">
+          <h2>GIỚI THIỆU THÀNH VIÊN</h2>
+        </div>
+        <div class="subject">
+          <h2>Mã Hóa Ứng Dụng</h2>
+        </div>
+        <div class="earth earth2">
+          <img src="../image/bgEarth.png" class="bgEarth" />
+          <img src="../image/Earth3d.png" class="Earth3d" />
+        </div>
+      </div>
+      <div class="rightSide">
+        <div class="pageNum">002</div>
+        <div class="member">
+          <ul>
+            <li>Lê Khánh Duy – DH52200559 (Thuyết trình –Demo)</li>
+            <li>Nguyễn Tuấn Huy – DH52200789 (Nội Dung)</li>
+            <li>Ngô Huế Đình – DH52200505 (Nội Dung)</li>
+          </ul>
+        </div>
+        <img src="../image/menu.png" class="menu" />
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+    </div>
+
+slide3
+
+<div class="slide slide3">
+        <div class="mainContent">
+            <div class="title">
+                <h2>Giới Thiệu Thành Phần</h2>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>Nguồn Gốc.</li>
+                    <li>Chi Tiết Thuật Toán</li>
+                    <li>Demo</li>
+                </ul>
+            </div>
+            <img src="../image/menu.png" class="menu">
+        </div>
+        <div class="rightSide">
+            <div class="pageNum">003</div>
+            <div class="subject">
+                <h2>Mã Hóa Ứng Dụng</h2>
+            </div>
+        </div>
+        <div class="downSide">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+slide 4
+
+<div class="slide slide4">
+        <div class="mainContent">
+            <div class="title">
+                <h2>Nguồn Gốc.</h2>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>Thuật Toán HIGHT được viết tắt là HIGh security and light weighT</li>
+                    <li>Do một nhóm các nhà nghiên cứu người Hàn Quốc vào năm 2005</li>
+                    <li>Từ tính tài nguyên hạn chế trong các thiết bị low-resource device: IoT,…</li>
+                    <li>Nên thuật toán HIGHT được xây dựng và phát triển mang trọng tâm là ít tiêu thụ bộ nhớ, tiết kiệm năng lượng, tăng 	hiệu quả xử lý và cung cấp <span>bảo mật cao</span></li>
+                </ul>
+            </div>
+            <img src="../image/Examples-of-low-end-IoT-devices-removebg-preview.png" class="menu">
+        </div>
+        <div class="rightSide">
+            <div class="pageNum">003</div>
+            <div class="subject">
+                <h2>Mã Hóa Ứng Dụng</h2>
+            </div>
+        </div>
+        <div class="downSide">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+slide 5
+<div class="slide slide5">
+        <div class="mainContent">
+            <div class="title">
+                <h2>2. Chi Tiết Thuật Toán</h2>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>Thuật toán HIGHT có cấu trúc đơn giản của toán tử số học cơ bản như là: 
+                        XOR, addition/subtraction in modular 2**8 (256) ,circular shift rotation và không dùng S-Box.</li>
+                    <li>The 64-bit plaintext (input) and ciphertext (input) are considered as concatenations of 8 bytes and denoted by P =  P7||···P1||P0 andC = C7||···C1||C0,respectively</li>
+                    <li>The 128 bit master key is considered as a concatenation of 16 bytes and denoted by MK = MK15||···||MK0</li>
+                </ul>
+            </div>
+            <img src="../image/menu.png" class="menu">
+        </div>
+        <div class="rightSide">
+            <div class="pageNum">003</div>
+            <div class="subject">
+                <h2>Mã Hóa Ứng Dụng</h2>
+            </div>
+        </div>
+        <div class="downSide">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+slide 6
+
+<div class="slide slide6">
+        <div class="mainContent">
+            <div class="title">
+                <h2>2. Chi Tiết Thuật Toán</h2>
+            </div>
+            <div class="content">
+                <img src="../image/hightProcess.png" >
+            </div>
+            <img src="../image/menu.png" class="menu">
+        </div>
+        <div class="rightSide">
+            <div class="pageNum">003</div>
+            <div class="subject">
+                <h2>Mã Hóa Ứng Dụng</h2>
+            </div>
+        </div>
+        <div class="downSide">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+
+slide 7
+    <div class="slide slide7">
+        <div class="mainContent">
+            <div class="title">
+                <h2>2. Chi Tiết Thuật Toán</h2>
+            </div>
+            <div class="content">
+                <div>
+                    HightEncryption(P,MK) {
+                        KeySchedule(MK,WK,SK);
+                        HightEncryption(P,WK,SK) {
+                    InitialTransfomation(P,X0,WK3,WK2,WK1,WK0);
+                    For i =0to31{
+                    RoundFunction(Xi,Xi+1,SK4i+3,SK4i+2,SK4i+1,SK4i);
+                            }
+                        FinalTransfomation(X32,C,WK7,WK6,,WK5,WK4);
+                        }
+                    }
+                   
+                </div>
+            </div>
+            <img src="../image/menu.png" class="menu">
+        </div>
+        <div class="rightSide">
+            <div class="pageNum">003</div>
+            <div class="subject">
+                <h2>Mã Hóa Ứng Dụng</h2>
+            </div>
+        </div>
+        <div class="downSide">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+slide 8
+<div class="slide slide8">
+        <div class="mainContent">
+            <div class="title">
+                <h2>🔯 WhiteningKeyGeneration</h2>
+            </div>
+            <div class="content">
+                <div>
+                    KeySchedule(MK,WK,SK) {
+                        <span>WhiteningKeyGeneration(MK,WK);</span>
+                        <span>SubkeyGeneration(MK,SK);</span>
+                    }
+                </div>
+                <div>
+                    The key schedule KeySchedule for HightEncryption consists of two algorithms, <span>WhiteningKeyGeneration</span> which generates 8 whitening key bytes WK0,··· ,WK7, and <span>SubkeyGeneration</span> which generates 128 subkey bytes SK0,··· ,SK127.
+                </div>
+            </div>
+            <img src="../image/menu.png" class="menu">
+        </div>
+        <div class="rightSide">
+            <div class="pageNum">003</div>
+            <div class="subject">
+                <h2>Mã Hóa Ứng Dụng</h2>
+            </div>
+        </div>
+        <div class="downSide">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+slide 9
+<div class="slide slide9">
+        <div class="mainContent">
+            <div class="title">
+                <h2>⏺ WhiteningKeyGeneration</h2>
+            </div>
+            <div class="content">
+                <div>
+                    WhiteningKeyGeneration {
+                        <br>
+                        For i =0to7{<br>
+                        If 0 ≤ i ≤3, then WKi ←MKi+12;<br>
+                        Else, WKi ← MKi−4;
+                        <br>
+                        }
+                    }  
+                </div>
+                <div>
+                    HIGHT dùng 8 <span>whiteningkey</span> bytes WK0,···,WK7 for the initial and final transformations. The algorithm <span>WhiteningKeyGeneration</span> thực hiện ở trên.
+
+                </div>
+            </div>
+            <img src="../image/menu.png" class="menu">
+        </div>
+        <div class="rightSide">
+            <div class="pageNum">003</div>
+            <div class="subject">
+                <h2>Mã Hóa Ứng Dụng</h2>
+            </div>
+        </div>
+        <div class="downSide">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+slide 10
+<div class="slide slide10">
+        <div class="mainContent">
+            <div class="title">
+                <h2>⏺ Subkey Generation</h2>
+            </div>
+            <div class="content">
+                <div>
+                    ConstantGeneration {<br>
+                        s0 ←0; s1 ←1; s2 ←0; s3 ←1;
+                        s4 ←1; s5 ←0; s6 ←1;
+                        d0 ←s6||s5||s4||s3||s2||s1||s0;<br>
+                        For i = 1 to 127 {<br>
+                        si+6 ← si+2 ⊕ si−1;
+                        d[i] ← s6||s5||s4||s3||s2||s1||s0;<br>
+                        }
+                        }
+                       
+                </div>
+                <div>
+                    SubkeyGeneration(MK,SK) {<br>
+                        Run ConstantGeneration <br>
+                        For i =0 to 7{<br>
+                            For j =0 to 7{<br>
+                            SK16·i+j ← MKj−i mod 8 ⊞d16·i+j;
+                            } <br>
+                            For j =0to7{<br>
+                            SK16·i+j+8 ← MK(j−i mod 8)+8 ⊞d16·i+j+8;
+                            }
+                        } <br>
+                        }
+                </div>
+            </div>
+            <img src="../image/menu.png" class="menu">
+        </div>
+        <div class="rightSide">
+            <div class="pageNum">003</div>
+            <div class="subject">
+                <h2>Mã Hóa Ứng Dụng</h2>
+            </div>
+        </div>
+        <div class="downSide">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+slide11
+
+    <div class="slide slide11">
+        <div class="mainContent">
+            <div class="title">
+                <h2>🔯 Initial Transformation</h2>
+            </div>
+            <div class="content">
+                <div>
+                    InitialTransfomation(P,X0,WK3,WK2,WK1,WK0) { <br>
+                        X0,0 ← P0 ⊞ WK0; X0,1 ← P1; X0,2 ← P2 ⊕ WK1; <br>X0,3 ←P3;
+                        <br>X0,4 ← P4 ⊞ WK2; X0,5 ← P5; X0,6 ← P6 ⊕ <br>WK3; X0,7 ←P7;
+                        <br>}                       
+                </div>
+                <div>
+                    <span>InitialTransformation</span> transforms a plaintext P into the input of the first
+                    <span>RoundFunction</span>, X0 = X0,7||X0,6||···||X0,0 by using the four whitening-key bytes,
+                    <span>WK0,WK1,WK2, and WK3.</span>                   
+                </div>
+            </div>
+            <img src="../image/menu.png" class="menu">
+        </div>
+        <div class="rightSide">
+            <div class="pageNum">003</div>
+            <div class="subject">
+                <h2>Mã Hóa Ứng Dụng</h2>
+            </div>
+        </div>
+        <div class="downSide">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+slide12
+<div class="slide slide12">
+        <div class="mainContent">
+            <div class="title">
+                <h2>🔯 Round Function</h2>
+            </div>
+            <div class="content">
+                <div>
+                    RoundFunction(Xi,Xi+1,SK4i+3,SK4i+2,SK4i+1,SK4i)  {<br>
+                        Xi+1,1 ← Xi,0; Xi+1,3 ← Xi,2; Xi+1,5 ← Xi,4; <br>Xi+1,7 ← Xi,6;
+                        <br>Xi+1,0 = Xi,7 ⊕ ( F0(Xi,6) ⊞ SK4i+3);
+                        <br>Xi+1,2 = Xi,1 ⊞ ( F1(Xi,0) ⊕ SK4i+2);
+                        <br>Xi+1,4 = Xi,3 ⊕ ( F0(Xi,2) ⊞ SK4i+1);
+                        <br>Xi+1,6 = Xi,5 ⊞ ( F1(Xi,4) ⊕ SK4i);
+                        <br>}                
+                </div>
+                <div>
+                    Trong đó: 
+                    <br>F0(x)=x <<< 1 ⊕x <<< 2⊕x <<< 7
+                    <br>F1(x)=x <<< 3 ⊕x <<< 4⊕x <<< 6
+                    <br>For i =0,··· ,31, RoundFunction chuyển Xi = Xi,7||···||Xi,0 thành Xi+1 = Xi+1,7||···||Xi+1,0 
+                </div>
+            </div>
+            <img src="../image/menu.png" class="menu">
+        </div>
+        <div class="rightSide">
+            <div class="pageNum">003</div>
+            <div class="subject">
+                <h2>Mã Hóa Ứng Dụng</h2>
+            </div>
+        </div>
+        <div class="downSide">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+slide13
+
+    <div class="slide slide13">
+        <div class="mainContent">
+            <div class="title">
+                <h2>🔯 Final Transformation</h2>
+            </div>
+            <div class="content">
+                <div>
+                    <span>FinalTransfomation</span>(X32,C,WK7,WK6,WK5,WK4) {
+                        <br>C0 ←X32,1 ⊞ WK4; C1 ←X32,2; C2 ← X32,3 ⊕ WK5; C3 ← X32,4;
+                        <br>C4 ←X32,5 ⊞ WK6; C5 ←X32,6; C6 ← X32,7 ⊕ WK7; C7 ← X32,0;
+                        <br>}</div>
+                <div>
+                    <span>FinalTransformation</span> untwists the swap of <span>the last round</span> function and transforms <span>X32 = X32,7|| X32,6||···||X32,0</span> into the <span>ciphertext C</span> by <span>using the four whitening-key bytes WK4,WK5,WK6,andWK7</span>. 
+                </div>
+                <div class="toLink">
+                    <div>👉</div>
+                    <a href="">LINK</a>
+                </div>
+            </div>
+            <img src="../image/menu.png" class="menu">
+        </div>
+        <div class="rightSide">
+            <div class="pageNum">003</div>
+            <div class="subject">
+                <h2>Mã Hóa Ứng Dụng</h2>
+            </div>
+        </div>
+        <div class="downSide">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>

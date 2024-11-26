@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Playwrite+US+Trad:wght@100..400&display=swap');
+
+:root{
+    --mainColor: #1B1939;
+    --childColor: #171717;
+    --textColor: #fff;
+    --delay2p5S: 2.5s; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Big Shoulders Display", sans-serif;
+    color: var(--textColor);
+}
+
+.slide{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 1fr 100px;
+    overflow: hidden;
+    background-color: #fff;
+    gap: 2px;
+}
+
+.slide .mainContent{
+    display: flex;
+    position: relative;
+}
+
+.mainContent,.downSide,.rightSide{
+    background-color: var(--mainColor);
+}
+
+.menu{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease var(--delay2p5S);
+}
+
+.mainContent>.menu{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.rightSide{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightSide .pageNum{
+    height: 25%;
+    padding: 50px;
+}
+
+.rightSide .subject{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+
+.rightSide .subject h2{
+    font-size: 30px;
+    transform: rotate(90deg);
+}
+
+.rightSide > *{
+    font-size: 45px;
+}
+
+.downSide{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+i{
+    font-size: 80px;
+    transform: translateY(100px);
+    transition:transform 0.5s ease var(--delay2p5S);
+}
+
+i.appear{
+    transform: translateY(0);
+}
